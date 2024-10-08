@@ -1,0 +1,111 @@
+===================================================
+https://www.youtube.com/watch?v=9OUvACXdxFs&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=1&ab_channel=dfbastidas
+===================================================
+01. Curso de Symfony 6 - Introducción e instalación.
+===================================================
+conocimientos en php
+symfony es un framework de php
+xamp apache
+gestor de dependencias composer
+cli symfony desde la pagina instalar la version necesaria
+el orden
+xamp
+composer 
+cli symfony
+es importante tener eso en cuenta
+dominar la terminal de linea de comandos
+uso de git
+uso de docker
+vamos a enfocarnos en como usar el framework y no las herramientas
+
+ver version de php php --version
+dirigirnos a la carpeta donde queremos descargar el proyecto
+ir a la documentacion
+
+una vez descargado todo ejecutaremos este comando
+symfony new --webapp my_project (<- nombre del proyecto)
+
+vamos a la carpeta por la terminal (el lo puso dentro de la carpeta html dentro del www) 
+symfony serve
+
+===================================================
+https://www.youtube.com/watch?v=Ij4NQ0DHlcE&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=2&ab_channel=TechJourney
+===================================================
+Aprende a instalar PHP Symfony Framework en Linux
+===================================================
+instalar php 
+sudo apt install php
+pero lo vamos a hacer desde un repositorio
+sudo add-apt-repository ppa:ondrej/php
+poner la password
+enter para agregarlo
+sudo apt update
+para vincular repositorio
+sudo apt install php 7.4
+y
+vamos a la pagina de composer 
+getcomposer.org/download/
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+pwd para ver la ruta donde se esta instalando
+ls para ver si esta instalado
+validar el paquete descargado
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+esperar que termine la instalacion de php para ejecutar el comando siguiente
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+escribimos composer 
+sudo apt install git
+y
+
+una vez terminada la instalacion de git
+wget https://get.symfony.com/cli/installer -O - | bash
+Or install it globally on your system: 
+copiamos la ruta, y la pegamos abajo con sudo mv /home/.....
+
+escribimos symfony
+enter
+==========
+ENTRAR A LA CARPETA DEL PROYECTO
+==========
+mkdir symfonyprojects
+cd symfonyprojects
+symfony new myproject
+enter
+esperamos que ejecute
+
+si da error de problema php 7.4-xml
+escribir sudo apt install php 7.4
+buscar en la lista y colocar tal cual esta
+sudo apt install php 7.4-xml
+
+cada vez que tengamos un error leerlo bien de que se trata!
+
+ejecutamos para eliminar la carpeta de proyecto 
+rm -rf myproject/ (porque tenia el error)
+
+ejecutamos nuevamente 
+symfony new myproject (para asegurarnos de no tener error al inicio del proyecto)
+
+configurar git
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+
+ejecutamos para eliminar la carpeta de proyecto 
+rm -rf myproject/ (porque tenia el error)
+
+ejecutamos nuevamente 
+symfony new myproject (para asegurarnos de no tener error al inicio del proyecto)
+
+cd myproject
+ls
+esta todo ok
+
+colocamos 
+symfony server:start
+inciar el 127....
+
+
+
+
+
+
