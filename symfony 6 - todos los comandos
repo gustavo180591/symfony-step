@@ -5,8 +5,45 @@ https://www.youtube.com/watch?v=9OUvACXdxFs&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZI
 ===================================================
 conocimientos en php
 symfony es un framework de php
+=============
 xamp apache
+
+Para instalar XAMPP en tu sistema Ubuntu con el archivo xampp-linux-x64-8.2.12-0-installer.run, sigue estos pasos:
+
+Descargar el archivo de instalación
+Si aún no lo tienes, puedes descargar el archivo desde el sitio oficial de XAMPP:
+https://www.apachefriends.org/download.html
+
+Abrir la terminal
+Ve al directorio donde descargaste el archivo. Por ejemplo, si está en la carpeta Descargas, ejecuta:
+
+
+cd ~/Descargas
+Dar permisos de ejecución al archivo
+Necesitarás otorgar permisos de ejecución al archivo .run. Ejecuta el siguiente comando:
+
+
+sudo chmod +x xampp-linux-x64-8.2.12-0-installer.run
+Ejecutar el instalador
+Ahora puedes ejecutar el archivo para iniciar la instalación:
+
+
+sudo ./xampp-linux-x64-8.2.12-0-installer.run
+Seguir el asistente de instalación
+Una vez ejecutado el comando anterior, se abrirá una ventana gráfica donde podrás seguir las instrucciones del instalador para completar la instalación de XAMPP.
+
+Iniciar XAMPP
+Después de la instalación, puedes iniciar XAMPP desde la terminal con el siguiente comando:
+sudo /opt/lampp/lampp start
+
+Para detener XAMPP:
+sudo /opt/lampp/lampp stop
+
+PARA VER LA INTERFAZ
+sudo /opt/lampp/manager-linux-x64.run
+=============
 gestor de dependencias composer
+
 cli symfony desde la pagina instalar la version necesaria
 el orden
 xamp
@@ -53,14 +90,18 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b3
 esperar que termine la instalacion de php para ejecutar el comando siguiente
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
-escribimos composer 
+escribimos
+composer 
 sudo apt install git
+[sudo] password for user: 
 y
 
 una vez terminada la instalacion de git
 wget https://get.symfony.com/cli/installer -O - | bash
-Or install it globally on your system: 
-copiamos la ruta, y la pegamos abajo con sudo mv /home/.....
+
+Or install it globally on your system:
+  mv /home/gustavo/.symfony5/bin/symfony /usr/local/bin/symfony
+copiamos la ruta, y la pegamos abajo con sudo mv /home/gustavo/.symfony5/bin/symfony /usr/local/bin/symfony
 
 escribimos symfony
 enter
@@ -73,10 +114,37 @@ symfony new myproject
 enter
 esperamos que ejecute
 
+===========================
 si da error de problema php 7.4-xml
 escribir sudo apt install php 7.4
 buscar en la lista y colocar tal cual esta
 sudo apt install php 7.4-xml
+Instalar la extensión XML para PHP
+
+Dado que estás usando PHP 8.3, puedes instalar la extensión necesaria usando el siguiente comando:
+sudo apt install php-xml
+Verificar la versión de PHP instalada
+En caso de que el comando anterior no funcione porque está relacionado con una versión diferente de PHP, puedes especificar la versión que estás usando. Para PHP 8.3:
+sudo apt install php8.3-xml
+
+Reiniciar el servidor web (si estás usando Apache o Nginx)
+Si estás usando Apache o Nginx, asegúrate de reiniciar el servidor para que los cambios surtan efecto:
+Para Apache:
+sudo systemctl restart apache2
+Para Nginx:
+sudo systemctl restart nginx
+Verificar que la extensión esté habilitada
+
+Después de instalar la extensión, puedes verificar que se ha habilitado correctamente ejecutando:
+
+php -m | grep xml
+Esto debería mostrar xml en la lista de módulos habilitados.
+==========================
+EN LA CARPETA DEL PROYECTO 
+Volver a ejecutar Composer
+Ahora que la extensión está instalada, puedes intentar correr composer install nuevamente:
+composer install
+==========================
 
 cada vez que tengamos un error leerlo bien de que se trata!
 
