@@ -173,6 +173,60 @@ symfony server:start
 inciar el 127....
 
 
+===================================================
+https://www.youtube.com/watch?v=K__IflCj_Nw&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=3&ab_channel=dfbastidas
+===================================================
+02. Curso de Symfony 6 - Estructura de archivos y Carpetas.
+===================================================
+Abrir vsc
+abrir el proyecto
+public
+src
+tempĺate
+son las 3 carpetas con la que mas vamos a interactuar
+son las carpetas con acceso publico acceso a img ccs 
+parte logica en la carpeta src (source) - controller todos los controladores de la plataforma - entity las tablas de base de datos - repository van las consultas donde realizamos a la base de datos se crean funciones. 
+template van las plantillas de nuestro proyecto
+ usa twing escribe php y html
+ tecnologia bastante util para utilizar assets en nuestro proyecto
+ en carpeta bin estan los comando en archivo console el cual podemos utilizar para ejecutar los comandos de symfony..
+ carpeta config donde estan todas las configuraciones de nuestro proyecto
+ en carpeta var se almacenan la cache y los log donde estan todos los movimientos
+ ===
+ .env
+===
+archivo de parametrizacion donde se ponen los datos con informacion sensible.
+PONERLO SI O SI EN EL .gitignore!!!
+--------------
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+.env
+###< symfony/framework-bundle ###
+--------------
+===================================================
+https://www.youtube.com/watch?v=MEi_tIFKheE&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=4&ab_channel=dfbastidas
+===================================================
+03. Curso de Symfony 6 - Composer.
+===================================================
+composer es un gestor de dependencias eso quiere decir que podemos instalar codigo de otras personas e incorporarlos a nuestro proyecto.
+Si necesitas un sistema de inicio de sesion, se puede utilizar el trabajo de alguien mas.
+Es esa herramiento codigo de terceros.
+para que composer funcione debemos tenerlo instalado.
+Como funciona archivo composer.json en la seccion "require" son los repositorios de terceros!
+estan dentro de la carpeta vendor
+comando composer install genera el composer.lock donde tienen las versiones exactas a utilizar
+===================================================
+https://www.youtube.com/watch?v=97dHndtgIqE&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=5&ab_channel=dfbastidas
+===================================================
+04. Curso de Symfony 6 - Entidades.
+===================================================
+
 
 
 
