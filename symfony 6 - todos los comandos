@@ -303,7 +303,34 @@ https://www.youtube.com/watch?v=W3NdN-6gcak&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZI
 ===================================================
 05. Curso de Symfony 6 - Relaciones
 ===================================================
+php bin/console make:entity User
+posts
+OneToMany
+Post
+user
+-- is the Post.user property allowed to be null (nullable)? --
+no
+-- en caso que se elimine el campo usuario eliminar tambien los campos de post --
+yes
+---
+ahora con interacciones
+---
+interactions
+OneToMany
+Interaction
+user
+no
+yes
+php bin/console make:entity Post
+interactions
+OneToMany
+Interaction
+post
+no
+yes
+pasamos a la base de datos con 
 
+php bin/console doctrine:schema:update --force
 
 
 
