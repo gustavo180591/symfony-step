@@ -292,12 +292,12 @@ php bin/console make:entity Interaction
 campo
 user_favorite
 boolean
-no
+yes
 campo
 comment
 text
 255
-no
+yes
 ===================================================
 https://www.youtube.com/watch?v=W3NdN-6gcak&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=6&ab_channel=dfbastidas
 ===================================================
