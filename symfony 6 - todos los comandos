@@ -226,6 +226,83 @@ https://www.youtube.com/watch?v=97dHndtgIqE&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZI
 ===================================================
 04. Curso de Symfony 6 - Entidades.
 ===================================================
+Para crear base de datos php bin/console doctrine:database:create
+Esto toma los valores del .env DATABASE_URL="mysql://gustavo:12345678@127.0.0.1:3306/oficio?serverVersion=8.0"
+para borrar la base de datos php bin/console doctrine:database:drop
+envia mensaje de advertencia y si esta seguro usar el --force
+php bin/console doctrine:database:create --force
+Para crear usuario
+php bin/console make:user
+User
+yes
+email
+yes
+--. estos comandos generan la tabla usuario, para agregar mas campos a usuario usaremos
+php bin/console make:entity
+--. Escribimos el nombre de la tabla
+User
+agregamos los nuevos campos con su tipo de dato
+photo
+string
+255
+puede ser vacio en base de datos...
+yes
+Agregamos otro campo
+description
+text
+yes
+---
+Agregamos mas tablas
+---
+php bin/console make:entity Post
+campo
+title
+string
+255
+no
+campo
+type
+string
+255
+no
+campo
+description
+text
+no
+campo
+file
+string
+255
+yes
+campo
+creation_date
+con el ? nos trae todos los tipos de datos
+datetime
+no
+campo 
+url
+text
+255
+no
+-> con esto queda creada la tabla post
+---
+Agregamos mas tablas
+---
+php bin/console make:entity Interaction
+campo
+user_favorite
+boolean
+no
+campo
+comment
+text
+255
+no
+===================================================
+https://www.youtube.com/watch?v=W3NdN-6gcak&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=6&ab_channel=dfbastidas
+===================================================
+05. Curso de Symfony 6 - Relaciones
+===================================================
 
 
 
