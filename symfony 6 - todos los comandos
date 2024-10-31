@@ -332,6 +332,14 @@ pasamos a la base de datos con
 
 php bin/console doctrine:schema:update --force
 
+===================================================
+https://www.youtube.com/watch?v=-efGx5RMVZk&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=7&ab_channel=dfbastidas
+===================================================
+06. Curso de Symfony 6 - Controlador
+===================================================
+php bin/console make:controller
+PostController
+
 
 
 
