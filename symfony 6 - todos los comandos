@@ -340,6 +340,45 @@ https://www.youtube.com/watch?v=-efGx5RMVZk&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZI
 php bin/console make:controller
 PostController
 
+===================================================
+https://www.youtube.com/watch?v=quStwMltBQE&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=9&ab_channel=dfbastidas
+===================================================
+08. Curso de Symfony 6 - Repository
+===================================================
+DQL 
+Doctrine
+Query
+Language
+  public function findAllPosts(){
+        return $this->getEntityManager()
+            ->createQuery('
+                SELECT post.id, post.title, post.description, post.file, post.creation_date, post.url
+                FROM App:Post post
+                ORDER BY post.id DESC
+                '
+            );
+    }
+    
+===================================================
+https://www.youtube.com/watch?v=9zMDbSEryfI&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=10&ab_channel=dfbastidas
+===================================================
+09. Curso de Symfony 6 - CUD
+===================================================
+public function __construct($title = null, $type = null, $description = null, $file = null, $url = null)
+    {
+        $this->title = $title;
+        $this->type = $type;
+        $this->description = $description;
+        $this->file = $file;
+        $this->creation_date = new \DateTime();
+        $this->url = $url;
+        $this->interactions = new ArrayCollection();
+    }
 
+===================================================
+https://www.youtube.com/watch?v=5NBUA3r89jU&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=11&ab_channel=dfbastidas
+===================================================
+10. Curso de Symfony 6 - Formularios
+===================================================
 
 
