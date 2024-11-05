@@ -380,5 +380,36 @@ https://www.youtube.com/watch?v=5NBUA3r89jU&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZI
 ===================================================
 10. Curso de Symfony 6 - Formularios
 ===================================================
+php bin/console make:form
+PostType
+o bien solo escribir Post y automaticamente escribe Type
+relacionarlo con la entidad Post
+cuando se relaciona con la entidad post automaticamente trae todos los atributos
+con los formularios el usuario es el que crea los post
 
+===================================================
+https://www.youtube.com/watch?v=-8yjTH9pM3U&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=12&ab_channel=dfbastidas
+===================================================
+11. Curso de Symfony 6 - Registro de usuarios
+===================================================
+php bin/console make:controller UserController
+crear formulario para registracion
+php bin/console make:form UserType
+a que entidad va relacionada 
+User
+---
+con esto se encripta la password
+$plaintextPassword = $registration_form->get('password')->getData();
 
+            $hashedPassword = $passwordHasher->hashPassword(
+                $user,
+                $plaintextPassword
+            );
+              $user->setPassword($hashedPassword);
+---
+            
+===================================================
+https://www.youtube.com/watch?v=cRCZyU3nUL8&list=PLDbrnXa6SAzXxOmHaHXmOciQK5LJZIThC&index=13&ab_channel=dfbastidas
+===================================================
+12. Curso de Symfony 6 - Autenticación de usuarios
+===================================================
