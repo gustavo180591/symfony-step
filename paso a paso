@@ -74,3 +74,172 @@ Itera: Trabaja en ciclos pequeños y prueba cada funcionalidad antes de avanzar.
 Versiona: Usa Git para tener un control preciso del progreso.
 Comunicación: Si trabajas en equipo, asegúrate de documentar las decisiones y mantener comunicación constante.
 Con este enfoque, evitarás enviar tantas modificaciones y te enfocarás en construir el sistema paso a paso. 🚀 ¡Espero que te sirva para futuros proyectos!
+
+
+Aquí tienes una lista completa de comandos y herramientas esenciales que debes instalar y configurar para garantizar que tu proyecto Symfony funcione correctamente:
+
+1. Instalación de PHP y extensiones necesarias
+Symfony requiere PHP y varias extensiones. Asegúrate de tener PHP instalado junto con estas extensiones:
+
+
+sudo apt update
+sudo apt install php php-cli php-common php-mbstring php-xml php-intl php-curl php-zip php-mysql unzip curl -y
+2. Instalación de Composer
+Composer es el administrador de dependencias para PHP. Instálalo con:
+
+sudo apt install composer -y
+Confirma que está instalado correctamente:
+
+
+composer --version
+3. Instalación del Symfony CLI
+El Symfony CLI facilita la creación y gestión de proyectos Symfony. Descárgalo e instálalo:
+
+curl -sS https://get.symfony.com/cli/installer | bash
+sudo mv ~/.symfony*/bin/symfony /usr/local/bin/symfony
+Confirma que está instalado correctamente:
+
+
+symfony --version
+4. Instalación de MySQL
+Si usas MySQL como base de datos, instálalo y configúralo:
+
+
+sudo apt install mysql-server mysql-client -y
+sudo mysql_secure_installation
+5. Instalación de Node.js y npm
+Para manejar los activos (CSS, JS), instala Node.js y npm:
+
+
+sudo apt install nodejs npm -y
+Actualiza npm a la última versión:
+
+
+sudo npm install -g npm@latest
+Confirma las versiones instaladas:
+
+
+node --version
+npm --version
+6. Instalación de Yarn (opcional)
+Yarn es una alternativa a npm para gestionar paquetes de frontend:
+
+
+npm install --global yarn
+7. Instalación de dependencias del proyecto
+Instala las dependencias PHP definidas en composer.json:
+
+
+composer install
+Instala las dependencias de frontend definidas en package.json:
+
+
+npm install
+Si usas Webpack Encore para compilar activos:
+
+
+yarn install
+yarn encore dev
+8. Configuración del servidor web
+Si no usas Symfony CLI, asegúrate de tener un servidor web como Apache o Nginx instalado. Por ejemplo, para Apache:
+
+
+sudo apt install apache2 libapache2-mod-php -y
+Para configurar Nginx, necesitarás el paquete adicional:
+
+
+sudo apt install nginx
+9. Configuración del entorno de Symfony
+Configura las variables de entorno en un archivo .env:
+
+
+APP_ENV=dev
+APP_SECRET=your_secret_key
+DATABASE_URL="mysql://root:password@127.0.0.1:3306/your_database_name"
+10. Comandos básicos de Symfony
+Ejecuta estos comandos después de configurar tu proyecto:
+
+Iniciar servidor de desarrollo:
+
+
+symfony server:start
+Crear una migración:
+
+
+php bin/console make:migration
+Ejecutar migraciones:
+
+
+php bin/console doctrine:migrations:migrate
+Limpiar caché:
+
+
+php bin/console cache:clear
+Crear un controlador:
+
+
+php bin/console make:controller NombreController
+11. Herramientas adicionales para desarrollo
+Instalación de make para comandos básicos:
+
+
+sudo apt install make -y
+Instalación de Git para control de versiones:
+
+
+sudo apt install git -y
+Configuración de Git:
+
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@ejemplo.com"
+12. Dependencias útiles para Symfony
+Ejecuta estos comandos para instalar herramientas adicionales:
+
+Symfony Maker Bundle:
+
+
+composer require symfony/maker-bundle --dev
+Twig para plantillas:
+
+
+composer require twig
+Doctrine para base de datos:
+
+
+composer require symfony/orm-pack
+composer require symfony/doctrine-migrations-bundle
+Webpack Encore para manejo de activos:
+
+
+composer require symfony/webpack-encore-bundle
+yarn install
+Validación de formularios:
+
+
+composer require symfony/validator
+Seguridad:
+
+
+composer require symfony/security-bundle
+13. Testeo
+Si planeas realizar pruebas, instala PHPUnit:
+
+
+composer require --dev symfony/test-pack
+Ejecuta pruebas con:
+
+
+php bin/phpunit
+14. Limpieza final
+Después de instalar y configurar todo, asegúrate de:
+
+Generar claves SSH si usas despliegues:
+
+
+ssh-keygen -t rsa -b 4096 -C "tuemail@ejemplo.com"
+Revisar que el servidor está activo:
+
+
+symfony server:status
+
