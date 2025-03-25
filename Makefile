@@ -7,7 +7,7 @@ init:
 
 start:
 	docker stop traefik && docker rm traefik
-	docker compose -f compose.proxy.yml up -d
+	docker compose -f compose.yaml up -d
 	docker compose -f compose.dev.yml up -d
 
 down:
