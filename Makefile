@@ -11,7 +11,7 @@ start:
 	docker compose -f compose.dev.yml up -d
 
 down:
-	docker compose -f compose.dev.yml down
+	docker compose -f compose.yaml down
 	docker compose -f compose.proxy.yml down
 
 
