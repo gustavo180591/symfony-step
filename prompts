@@ -11,105 +11,120 @@ Debe incluir:
 
 ---
 
-2. 👤 TIPOS DE USUARIOS Y ROLES (con RBAC avanzado y soporte para ABAC)  
-   - Lista detallada de roles y permisos.
-   - Soporte para delegaciones temporales, ACL por módulo, suspensión, modo revisión.
+2. 👤 TIPOS DE USUARIOS Y ROLES (RBAC avanzado + posibilidad de extender a ABAC)  
+   - Lista detallada de roles: Usuario, Moderador, Admin Local, Admin Global, Auditor, Sysadmin.
+   - Permisos por módulo y acción.
+   - Delegación temporal, suspensión, ACL por módulo.
+   - Soporte para roles combinados.
 
 ---
 
 3. 📊 MODELO DE DATOS Y RELACIONES  
-   - Entidades, atributos, relaciones, claves primarias y foráneas.
-   - Validaciones, normalización, ERD.
-   - Soporte para multi-tenant si aplica.
+   - Entidades, atributos, claves, relaciones.
+   - Diagrama E-R sugerido.
+   - Validaciones, tipos de datos, restricciones, indices.
+   - Multi-tenant opcional.
+   - Seeds iniciales.
 
 ---
 
-4. 🗂️ ESTRUCTURA DE PROYECTO Y ARQUITECTURA DE CARPETAS  
-   - Generá una estructura de carpetas y archivos completa, orientada a componentes, servicios y módulos.  
-   - Cada carpeta y archivo debe tener:
-     - Un nombre coherente.
-     - Una descripción clara de su función.
-     - Relación entre módulos (cómo se comunican).
-     - Separación entre dominio, presentación, infraestructura y lógica de negocio.
-
-   ➕ Incluí:
-   - Frontend (SvelteKit)
-   - Backend (Node/Nest o Symfony)
-   - Configuración (envs, build, Docker)
-   - Base de datos y seeds
-   - Scripts y testing
-   - CI/CD y monitoreo
+4. 🛍️ FUNCIONALIDAD DE CARRITO DE COMPRA  
+   - Estructura del carrito: productos, variantes, cantidades, descuentos.
+   - Operaciones: agregar/quitar producto, actualizar cantidad, vaciar carrito.
+   - Modo anónimo y modo autenticado (persistencia local + en servidor).
+   - Integración con pagos (simulado o real: Stripe, MercadoPago, etc.).
+   - Resumen de compra, pasos del checkout, validaciones.
+   - Historial de compras por usuario.
+   - Soporte para cupones y promociones.
 
 ---
 
-5. 🧩 MODULARIZACIÓN  
-   - Explicá cómo separar funcionalidades en módulos independientes.
-   - Cómo escalar con plugins o microservicios si crece.
-   - Aplicar principios de Clean Architecture o Hexagonal si corresponde.
+5. 🗂️ ESTRUCTURA DE PROYECTO Y ARQUITECTURA DE CARPETAS  
+   - Estructura modular escalable para frontend, backend y base de datos.
+   - Cada carpeta/archivo con su función clara:
+     - 📁 `/modules` → lógica de dominio separada
+     - 📁 `/components` → UI modular, reutilizable
+     - 📁 `/routes` → rutas protegidas/públicas
+     - 📁 `/api` → endpoints REST/GraphQL
+     - 📁 `/services` → conexión con APIs internas y externas
+     - 📁 `/stores` → estado global, auth, carrito, notificaciones
+     - 📁 `/config` → constantes, envs, middlewares, plugins
+     - 📁 `/tests` → pruebas unitarias, e2e, mocks
+   - Backend desacoplado: Symfony, NestJS o Express.
+   - Frontend con SvelteKit modularizado.
 
 ---
 
-6. 💻 FRONTEND (con SvelteKit o similar)  
-   - Estructura de páginas, componentes, layouts y stores.
-   - Rutas públicas y protegidas.
-   - Acceso a APIs, formularios, validación y notificaciones.
-   - Diseño moderno: limpio, responsivo, accesible (modo oscuro, i18n opcional).
+6. 🧩 MODULARIZACIÓN  
+   - Clean Architecture o Hexagonal.
+   - Plugins por funcionalidad (e.g. módulo de notificaciones, módulo de carrito).
+   - Facilitar desacoplamiento y tests por módulo.
 
 ---
 
-7. 📱 APP MÓVIL (PWA o exportación con Capacitor)  
-   - Acceso a cámara, geolocalización, notificaciones.
-   - Mismo stack y código que el web (cuando sea posible).
+7. 💻 FRONTEND (SvelteKit recomendado)  
+   - Diseño moderno y accesible.
+   - Modo oscuro, i18n, componentes reusables.
+   - Stores globales para sesión, estado de usuario y carrito.
+   - UX fluida con validaciones, carga progresiva y notificaciones.
 
 ---
 
-8. 🔐 AUTENTICACIÓN Y SEGURIDAD  
+8. 📱 APP MÓVIL (PWA o Capacitor exportable)  
+   - Compartir lógica con el frontend web.
+   - Acceso a APIs nativas: cámara, GPS, notificaciones push.
+   - Responsive + usable offline.
+
+---
+
+9. 🔐 AUTENTICACIÓN Y SEGURIDAD  
    - JWT + OAuth2 con scopes.
-   - Roles, permisos y sesiones.
-   - Protección XSS, CSRF, rate limits.
-   - Logs de auditoría.
+   - Middleware de autenticación y autorización.
+   - CSRF, XSS, brute-force prevention.
+   - Auditoría completa de acciones de usuarios.
 
 ---
 
-9. 🌐 API (RESTful o GraphQL + OpenAPI)  
-   - Endpoints detallados por entidad.
-   - Esquemas de entrada/salida.
-   - Control de errores, paginación, filtros.
+10. 🌐 API REST/GraphQL  
+    - Rutas protegidas y públicas.
+    - Documentación OpenAPI/Swagger.
+    - Esquemas de entrada/salida validados.
 
 ---
 
-10. 🧪 TESTING  
-    - Unitarios, integración y e2e.
-    - Herramientas recomendadas.
-    - Qué probar, cómo y con qué frecuencia (CI/CD).
+11. 🧪 TESTING  
+    - Unitarios con Jest o PHPUnit.
+    - E2E con Playwright o Cypress.
+    - Pruebas de API y rutas.
+    - Coverage e integración en CI/CD.
 
 ---
 
-11. 🚀 DEVOPS Y DESPLIEGUE  
-    - Docker, GitHub Actions/GitLab CI.
-    - Staging/production con variables seguras.
-    - Kubernetes si escala.
-    - Monitoreo y backups automatizados.
+12. 🚀 DEVOPS Y DESPLIEGUE  
+    - Docker y Docker Compose.
+    - CI/CD con GitHub Actions o GitLab.
+    - Monitoreo: Prometheus + Grafana.
+    - Backups automáticos y versionado de datos.
 
 ---
 
-12. 📈 ESCALABILIDAD Y MANTENIMIENTO  
-    - PostgreSQL particionado, Redis para sesiones/cache.
-    - CDN para archivos/media.
-    - Arquitectura desacoplada.
-    - Escalado horizontal y vertical.
-    - Blue/green deploy, feature flags.
+13. 📈 ESCALABILIDAD Y MANTENIMIENTO  
+    - PostgreSQL particionado.
+    - Redis para caché/sesiones.
+    - Websockets o colas con RabbitMQ para tareas pesadas.
+    - CDN para assets.
+    - Blue-green deployment o canary releases.
 
 ---
 
-13. 🛠️ EXTRAS  
-    - Sistema de notificaciones (push, SMS, mail).
-    - Panel de rendimiento.
-    - Trazabilidad (quién hizo qué y cuándo).
-    - Soporte para multi-idioma desde el inicio.
-    - Token de API para integraciones futuras.
+14. 🛠️ EXTRAS  
+    - Sistema de notificaciones modular.
+    - Panel de métricas y rendimiento.
+    - Tokens de API para integraciones externas.
+    - Trazabilidad completa.
+    - Modo mantenimiento y restauración de backups desde panel.
+    - Feature flags y entorno multi-idioma desde el inicio.
 
 ---
 
-💬 Respondeme con una solución completa basada en este prompt. Anticipate a problemas comunes, justificá elecciones técnicas y proponé una solución moderna, escalable, modular y segura.
-
+🧠 Respondé con una solución completa para este sistema, anticipando posibles problemas, justificando elecciones técnicas y proponiendo una arquitectura escalable, segura, modular y visualmente moderna.
