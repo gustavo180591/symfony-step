@@ -1,0 +1,118 @@
+🧠 ENCUESTA DE RELEVAMIENTO FUNCIONAL – INICIO DE PROYECTO
+1. 🔍 Información general del cliente
+Nombre de la empresa / institución:
+
+Persona de contacto y cargo:
+
+Teléfono / WhatsApp de contacto:
+
+Email:
+
+Sitio web / redes sociales (si aplica):
+
+Breve descripción de la organización y sus actividades:
+
+2. 🎯 Objetivo del sistema
+¿Cuál es el objetivo principal del sistema?
+
+¿Qué problema actual busca resolver?
+
+¿Qué beneficios esperan obtener con el sistema?
+
+¿Quién propuso la idea del sistema (internamente o externamente)?
+
+¿Qué urgencia tiene este desarrollo?
+☐ Baja – exploratorio
+☐ Media – mediano plazo
+☐ Alta – necesidad inmediata
+
+3. 👥 Usuarios y roles
+¿Quiénes serán los usuarios del sistema?
+(Ciudadanos, empleados, administradores, proveedores, alumnos, etc.)
+
+¿Qué roles o perfiles de acceso necesita cada tipo de usuario?
+
+¿Qué funcionalidades específicas tendrá cada rol?
+
+¿Cuántos usuarios estiman que lo usarán simultáneamente?
+
+4. 📱 Dispositivos y plataformas
+¿Dónde se utilizará el sistema?
+☐ Web (navegador)
+☐ Móvil (Android / iOS)
+☐ Escritorio
+☐ Terminales físicas / POS / dispositivos especiales
+
+¿Debe funcionar sin conexión a Internet?
+
+¿Hay sistemas existentes que se usan actualmente? ¿Cuáles?
+
+5. ⚙️ Funcionalidades clave (Check-list inicial)
+¿Qué acciones debe permitir el sistema? (marcar todas las que apliquen)
+☐ Registro / login de usuarios
+☐ Formularios personalizados
+☐ Carga de archivos (imágenes, PDF, video, etc.)
+☐ Módulo de pagos o carrito de compras
+☐ Chat o mensajería interna
+☐ Notificaciones (email / push / SMS)
+☐ Dashboard o estadísticas
+☐ Geolocalización / mapas
+☐ Control de stock / inventario
+☐ Gestión de turnos / reservas
+☐ Firma digital / validación documental
+☐ Exportación de datos (Excel, PDF, etc.)
+☐ Integración con APIs externas
+☐ Otros (especificar):
+
+6. 🔐 Seguridad y privacidad
+¿Qué nivel de seguridad requiere el sistema?
+☐ Básico (login seguro, formularios protegidos)
+☐ Medio (gestión de roles, logs, backups automáticos)
+☐ Alto (cifrado, doble autenticación, acceso segmentado)
+
+¿Se manejarán datos personales o sensibles?
+
+¿Requiere cumplimiento de normas legales? (ej: RGPD, Ley de Habeas Data)
+
+7. 🧩 Integraciones
+¿Hay sistemas con los que deba integrarse?
+(ERP, CRM, redes sociales, servicios externos, pagos, etc.)
+
+¿Tienen documentación técnica de esas integraciones?
+
+¿Tienen personal técnico con el que podamos coordinar?
+
+8. 🎨 Diseño e identidad visual
+¿Desean un diseño:
+☐ Estándar / funcional
+☐ Personalizado con su identidad visual
+☐ Algo completamente innovador
+
+¿Tienen manual de marca / logos / colores corporativos?
+
+¿Qué imagen desean transmitir con el sistema?
+
+9. 📆 Tiempos y presupuesto
+¿Hay una fecha límite para tener una primera versión funcional?
+
+¿Hay un presupuesto estimado para el desarrollo?
+
+¿Están interesados en mantenimiento y mejoras post-lanzamiento?
+
+10. 🧪 Validación y pruebas
+¿Quién validará que el sistema cumpla los objetivos?
+
+¿Tienen un equipo interno para probar y dar feedback?
+
+¿Desean un entorno de pruebas antes del entorno final?
+
+11. 🚀 Futuro y escalabilidad
+¿El sistema debería poder crecer con el tiempo?
+(Nuevos módulos, más usuarios, multi-sede, etc.)
+
+¿Qué otras funcionalidades les gustaría agregar en el futuro?
+
+12. 📌 Notas adicionales
+¿Algo más que consideren importante contar?
+
+¿Tienen ejemplos o referencias de otros sistemas similares?
