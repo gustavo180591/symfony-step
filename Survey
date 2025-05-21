@@ -1,118 +1,125 @@
-🧠 ENCUESTA DE RELEVAMIENTO FUNCIONAL – INICIO DE PROYECTO
-1. 🔍 Información general del cliente
-Nombre de la empresa / institución:
+**ENCUESTA DE RELEVAMIENTO FUNCIONAL – INICIO DE PROYECTO**
 
-Persona de contacto y cargo:
+0\. **Metadatos rápidos**
+Código interno / nombre del proyecto:
+Fecha inicio de relevamiento:
+Consultor responsable:
 
-Teléfono / WhatsApp de contacto:
+1\. **Información general del cliente 🗂️**
 
-Email:
+* Razón social / nombre empresa o institución:
+* Persona de contacto (cargo):
+* Teléfono / WhatsApp:
+* Correo electrónico:
+* Sitio web y redes sociales:
+* Breve descripción organización (≤ 3 líneas):
+* Productos o servicios principales:
+  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
 
-Sitio web / redes sociales (si aplica):
+2\. **Propósito, objetivos y urgencia 🎯**
 
-Breve descripción de la organización y sus actividades:
+* Problema actual / oportunidad a resolver:
+* Objetivo SMART principal:
+* Beneficios esperados (máx. 3 bullets):
+* Quién impulsó la iniciativa:
+  ☐ Dirección ☐ Área operativa ☐ Externo
+* Nivel de urgencia:
+  ☐ Exploratorio (0-3 meses) ☐ Mediano plazo (3-6 meses) ☐ Inmediato (<3 meses)
 
-2. 🎯 Objetivo del sistema
-¿Cuál es el objetivo principal del sistema?
+3\. **Usuarios, stakeholders y roles 👥**
 
-¿Qué problema actual busca resolver?
+* Usuarios finales:
+  ☐ Clientes minoristas ☐ Clientes mayoristas/B2B ☐ Proveedores ☐ Operadores internos
+  ☐ Administradores ☐ Logística ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
+* Roles, permisos y funcionalidades específicas por tipo de usuario:
+* Usuarios concurrentes estimados pico:
 
-¿Qué beneficios esperan obtener con el sistema?
+4\. **Alcance funcional prioritario ⚙️**
+(Prioridad: 1-Esencial, 2-Importante, 3-Deseable)
 
-¿Quién propuso la idea del sistema (internamente o externamente)?
+| Funcionalidad                              | Prioridad | Notas / particularidades |
+| ------------------------------------------ | --------- | ------------------------ |
+| Registro & login seguro                    |           |                          |
+| Formularios personalizados                 |           |                          |
+| Carga de archivos (imágenes, PDF, video)   |           |                          |
+| Catálogo de productos (variantes, stock)   |           |                          |
+| Carrito + pagos (MercadoPago, cuotas)      |           |                          |
+| Gestión envíos (Andreani/OCA/Flex)         |           |                          |
+| Certificaciones (orgánico, comercio justo) |           |                          |
+| Panel ventas / dashboard analíticas        |           |                          |
+| Chat / WhatsApp directo                    |           |                          |
+| Notificaciones (email, push, SMS)          |           |                          |
+| Integración marketplaces (Ofelia, ML)      |           |                          |
+| Multilenguaje / multi-moneda               |           |                          |
+| Offline first / PWA                        |           |                          |
+| Geolocalización / mapas                    |           |                          |
+| Control inventario / stock                 |           |                          |
+| Turnos / reservas                          |           |                          |
+| Firma digital / validación documental      |           |                          |
+| Exportación de datos (Excel, PDF)          |           |                          |
+| Integración APIs externas                  |           |                          |
+| Otras:                                     |           |                          |
 
-¿Qué urgencia tiene este desarrollo?
-☐ Baja – exploratorio
-☐ Media – mediano plazo
-☐ Alta – necesidad inmediata
+5\. **Experiencia usuario & identidad visual 🎨**
 
-3. 👥 Usuarios y roles
-¿Quiénes serán los usuarios del sistema?
-(Ciudadanos, empleados, administradores, proveedores, alumnos, etc.)
+* Estilo deseado:
+  ☐ Funcional minimalista ☐ Corporativo actual ☐ Innovador
+* Manual de marca disponible: ☐ Sí ☐ No
+* Imagen / adjetivos a transmitir (3 adjetivos):
 
-¿Qué roles o perfiles de acceso necesita cada tipo de usuario?
+6\. **Plataformas y tecnologías 📱💻**
 
-¿Qué funcionalidades específicas tendrá cada rol?
+* Canales objetivo: ☐ Web ☐ Android ☐ iOS ☐ Escritorio ☐ Kiosco/POS
+* ¿Funcionar sin conexión? ☐ Sí ☐ No
+* Sistemas actuales a integrar (ERP, CRM, AFIP, etc.):
+* Preferencias tecnológicas (frontend, backend, DB):
 
-¿Cuántos usuarios estiman que lo usarán simultáneamente?
+7\. **Seguridad, privacidad & compliance 🔐**
 
-4. 📱 Dispositivos y plataformas
-¿Dónde se utilizará el sistema?
-☐ Web (navegador)
-☐ Móvil (Android / iOS)
-☐ Escritorio
-☐ Terminales físicas / POS / dispositivos especiales
+* Nivel seguridad requerido: ☐ Básico ☐ Medio ☐ Alto
+* Manejo datos sensibles: ☐ Sí ☐ No
+* Cumplimiento normativo: ☐ Habeas Data ☐ PCI ☐ RGPD ☐ Otra: \_\_\_\_\_\_\_
+* Necesita 2FA: ☐ Sí ☐ No
+* Política backups y retención datos:
 
-¿Debe funcionar sin conexión a Internet?
+8\. **Logística y operación 🚚**
 
-¿Hay sistemas existentes que se usan actualmente? ¿Cuáles?
+* Tipos entrega: ☐ Puerta a puerta ☐ Punto retiro/lockers ☐ Pickup local
+* Operadores logísticos preferidos:
+* Porcentaje entregas < 24h esperado:
+* Gestión devoluciones y posventa:
 
-5. ⚙️ Funcionalidades clave (Check-list inicial)
-¿Qué acciones debe permitir el sistema? (marcar todas las que apliquen)
-☐ Registro / login de usuarios
-☐ Formularios personalizados
-☐ Carga de archivos (imágenes, PDF, video, etc.)
-☐ Módulo de pagos o carrito de compras
-☐ Chat o mensajería interna
-☐ Notificaciones (email / push / SMS)
-☐ Dashboard o estadísticas
-☐ Geolocalización / mapas
-☐ Control de stock / inventario
-☐ Gestión de turnos / reservas
-☐ Firma digital / validación documental
-☐ Exportación de datos (Excel, PDF, etc.)
-☐ Integración con APIs externas
-☐ Otros (especificar):
+9\. **KPIs y analítica 📊**
 
-6. 🔐 Seguridad y privacidad
-¿Qué nivel de seguridad requiere el sistema?
-☐ Básico (login seguro, formularios protegidos)
-☐ Medio (gestión de roles, logs, backups automáticos)
-☐ Alto (cifrado, doble autenticación, acceso segmentado)
+* Indicadores clave éxito:
+  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Otro: \_\_\_\_\_
+* Herramientas medición preferidas (GA4, Looker Studio, Propias):
 
-¿Se manejarán datos personales o sensibles?
+10\. **Plan proyecto ⏱️💲**
 
-¿Requiere cumplimiento de normas legales? (ej: RGPD, Ley de Habeas Data)
+* Fecha objetivo MVP (mínimo viable):
+* Presupuesto disponible (rango USD/ARS):
+* Servicio soporte y evolutivos: ☐ Sí ☐ No
+* Responsable validación cumplimiento objetivos:
+* Disponibilidad equipo interno para pruebas/feedback: ☐ Sí ☐ No
+* Entorno pruebas antes entorno final: ☐ Sí ☐ No
 
-7. 🧩 Integraciones
-¿Hay sistemas con los que deba integrarse?
-(ERP, CRM, redes sociales, servicios externos, pagos, etc.)
+11\. **Roadmap y escalabilidad futura 🚀**
 
-¿Tienen documentación técnica de esas integraciones?
+* Crecimiento esperado (usuarios, módulos, multi-sede):
+* Funcionalidades futuras (12-24 meses):
+* Riesgos identificados (legales, técnicos, operativos):
 
-¿Tienen personal técnico con el que podamos coordinar?
+12\. **Anexos & referencias 📎**
 
-8. 🎨 Diseño e identidad visual
-¿Desean un diseño:
-☐ Estándar / funcional
-☐ Personalizado con su identidad visual
-☐ Algo completamente innovador
+* Sistemas similares inspiración (links):
+* Documentación técnica existente (APIs, flujos):
+* Notas adicionales importantes del cliente:
 
-¿Tienen manual de marca / logos / colores corporativos?
+*Instrucciones de uso:*
 
-¿Qué imagen desean transmitir con el sistema?
+* Completar campos obligatorios primero.
+* Prioridades del 1-3; evite “todo prioridad 1”.
+* Enviar copia 24 h antes reunión.
 
-9. 📆 Tiempos y presupuesto
-¿Hay una fecha límite para tener una primera versión funcional?
-
-¿Hay un presupuesto estimado para el desarrollo?
-
-¿Están interesados en mantenimiento y mejoras post-lanzamiento?
-
-10. 🧪 Validación y pruebas
-¿Quién validará que el sistema cumpla los objetivos?
-
-¿Tienen un equipo interno para probar y dar feedback?
-
-¿Desean un entorno de pruebas antes del entorno final?
-
-11. 🚀 Futuro y escalabilidad
-¿El sistema debería poder crecer con el tiempo?
-(Nuevos módulos, más usuarios, multi-sede, etc.)
-
-¿Qué otras funcionalidades les gustaría agregar en el futuro?
-
-12. 📌 Notas adicionales
-¿Algo más que consideren importante contar?
-
-¿Tienen ejemplos o referencias de otros sistemas similares?
+“La mejor funcionalidad es la que está pensada antes de programarse.” 🧠
