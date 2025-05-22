@@ -14,7 +14,7 @@ Consultor responsable:
 * Sitio web y redes sociales:
 * Breve descripción organización (≤ 3 líneas):
 * Productos o servicios principales:
-  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Software/Servicios Informáticos ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
+  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Software/Servicios Informáticos ☐ Servicios profesionales freelance ☐ Consultoría internacional ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_\_
 
 2\. **Propósito, objetivos y urgencia 🎯**
 
@@ -30,7 +30,7 @@ Consultor responsable:
 
 * Usuarios finales:
   ☐ Clientes minoristas ☐ Clientes mayoristas/B2B ☐ Proveedores ☐ Operadores internos
-  ☐ Administradores ☐ Logística ☐ Freelancers ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
+  ☐ Administradores ☐ Logística ☐ Freelancers ☐ Contratantes internacionales ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_\_
 * Roles, permisos y funcionalidades específicas por tipo de usuario:
 * Usuarios concurrentes estimados pico:
 
@@ -43,13 +43,13 @@ Consultor responsable:
 | Formularios personalizados                                     |           |                          |
 | Carga de archivos (imágenes, PDF, video)                       |           |                          |
 | Catálogo de productos (variantes, stock)                       |           |                          |
-| Carrito + pagos (MercadoPago, cuotas)                          |           |                          |
+| Carrito + pagos (MercadoPago, cuotas, cripto/stablecoins)      |           |                          |
 | Gestión envíos (Andreani/OCA/Flex)                             |           |                          |
-| Certificaciones (orgánico, comercio justo)                     |           |                          |
+| Certificaciones (orgánico, comercio justo, internacional)      |           |                          |
 | Panel ventas / dashboard analíticas                            |           |                          |
 | Chat / WhatsApp directo                                        |           |                          |
 | Notificaciones (email, push, SMS)                              |           |                          |
-| Integración marketplaces (Ofelia, ML)                          |           |                          |
+| Integración marketplaces (Ofelia, ML, Freelancer.com, Upwork)  |           |                          |
 | Multilenguaje / multi-moneda                                   |           |                          |
 | Offline first / PWA                                            |           |                          |
 | Geolocalización / mapas                                        |           |                          |
@@ -57,11 +57,11 @@ Consultor responsable:
 | Turnos / reservas                                              |           |                          |
 | Firma digital / validación documental                          |           |                          |
 | Exportación de datos (Excel, PDF)                              |           |                          |
-| Integración APIs externas                                      |           |                          |
+| Integración APIs externas (RRHH, Deel, Payoneer, Paypal)       |           |                          |
 | Módulos IA generativa (chatbots, prompts, análisis predictivo) |           |                          |
 | Cloud computing (AWS, Azure, Google Cloud)                     |           |                          |
 | Ciberseguridad avanzada (firewalls, MFA, monitoreo)            |           |                          |
-| Blockchain y fintech (cripto, DeFi, trazabilidad)              |           |                          |
+| Blockchain y fintech (cripto, DeFi, trazabilidad pagos)        |           |                          |
 
 5\. **Experiencia usuario & identidad visual 🎨**
 
@@ -74,14 +74,14 @@ Consultor responsable:
 
 * Canales objetivo: ☐ Web ☐ Android ☐ iOS ☐ Escritorio ☐ Kiosco/POS
 * ¿Funcionar sin conexión? ☐ Sí ☐ No
-* Sistemas actuales a integrar (ERP, CRM, AFIP, etc.):
+* Sistemas actuales a integrar (ERP, CRM, AFIP, Deel, RRHH externos):
 * Preferencias tecnológicas (frontend, backend, DB):
 
 7\. **Seguridad, privacidad & compliance 🔐**
 
 * Nivel seguridad requerido: ☐ Básico ☐ Medio ☐ Alto
 * Manejo datos sensibles: ☐ Sí ☐ No
-* Cumplimiento normativo: ☐ Habeas Data ☐ PCI ☐ RGPD ☐ Ley Economía del Conocimiento ☐ Otra: \_\_\_\_\_\_\_\_
+* Cumplimiento normativo: ☐ Habeas Data ☐ PCI ☐ RGPD ☐ Ley Economía del Conocimiento ☐ Otra: \_\_\_\_\_\_\_\_\_\_
 * Necesita 2FA: ☐ Sí ☐ No
 * Política backups y retención datos:
 
@@ -95,7 +95,7 @@ Consultor responsable:
 9\. **KPIs y analítica 📊**
 
 * Indicadores clave éxito:
-  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Retención de talento ☐ Otro: \_\_\_\_\_\_\_
+  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Retención de talento ☐ Tarifa promedio hora freelancer ☐ Otro: \_\_\_\_\_\_\_\_\_\_
 * Herramientas medición preferidas (GA4, Looker Studio, Propias):
 
 10\. **Plan proyecto ⏱️💲**
@@ -111,7 +111,7 @@ Consultor responsable:
 
 * Crecimiento esperado (usuarios, módulos, multi-sede):
 * Funcionalidades futuras (12-24 meses):
-* Riesgos identificados (legales, técnicos, operativos):
+* Riesgos identificados (legales, técnicos, operativos, regulatorios cripto):
 
 12\. **Anexos & referencias 📎**
 
