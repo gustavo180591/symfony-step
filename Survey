@@ -14,7 +14,7 @@ Consultor responsable:
 * Sitio web y redes sociales:
 * Breve descripción organización (≤ 3 líneas):
 * Productos o servicios principales:
-  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
+  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Software/Servicios Informáticos ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
 
 2\. **Propósito, objetivos y urgencia 🎯**
 
@@ -30,35 +30,38 @@ Consultor responsable:
 
 * Usuarios finales:
   ☐ Clientes minoristas ☐ Clientes mayoristas/B2B ☐ Proveedores ☐ Operadores internos
-  ☐ Administradores ☐ Logística ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
+  ☐ Administradores ☐ Logística ☐ Freelancers ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_
 * Roles, permisos y funcionalidades específicas por tipo de usuario:
 * Usuarios concurrentes estimados pico:
 
 4\. **Alcance funcional prioritario ⚙️**
 (Prioridad: 1-Esencial, 2-Importante, 3-Deseable)
 
-| Funcionalidad                              | Prioridad | Notas / particularidades |
-| ------------------------------------------ | --------- | ------------------------ |
-| Registro & login seguro                    |           |                          |
-| Formularios personalizados                 |           |                          |
-| Carga de archivos (imágenes, PDF, video)   |           |                          |
-| Catálogo de productos (variantes, stock)   |           |                          |
-| Carrito + pagos (MercadoPago, cuotas)      |           |                          |
-| Gestión envíos (Andreani/OCA/Flex)         |           |                          |
-| Certificaciones (orgánico, comercio justo) |           |                          |
-| Panel ventas / dashboard analíticas        |           |                          |
-| Chat / WhatsApp directo                    |           |                          |
-| Notificaciones (email, push, SMS)          |           |                          |
-| Integración marketplaces (Ofelia, ML)      |           |                          |
-| Multilenguaje / multi-moneda               |           |                          |
-| Offline first / PWA                        |           |                          |
-| Geolocalización / mapas                    |           |                          |
-| Control inventario / stock                 |           |                          |
-| Turnos / reservas                          |           |                          |
-| Firma digital / validación documental      |           |                          |
-| Exportación de datos (Excel, PDF)          |           |                          |
-| Integración APIs externas                  |           |                          |
-| Otras:                                     |           |                          |
+| Funcionalidad                                                  | Prioridad | Notas / particularidades |
+| -------------------------------------------------------------- | --------- | ------------------------ |
+| Registro & login seguro                                        |           |                          |
+| Formularios personalizados                                     |           |                          |
+| Carga de archivos (imágenes, PDF, video)                       |           |                          |
+| Catálogo de productos (variantes, stock)                       |           |                          |
+| Carrito + pagos (MercadoPago, cuotas)                          |           |                          |
+| Gestión envíos (Andreani/OCA/Flex)                             |           |                          |
+| Certificaciones (orgánico, comercio justo)                     |           |                          |
+| Panel ventas / dashboard analíticas                            |           |                          |
+| Chat / WhatsApp directo                                        |           |                          |
+| Notificaciones (email, push, SMS)                              |           |                          |
+| Integración marketplaces (Ofelia, ML)                          |           |                          |
+| Multilenguaje / multi-moneda                                   |           |                          |
+| Offline first / PWA                                            |           |                          |
+| Geolocalización / mapas                                        |           |                          |
+| Control inventario / stock                                     |           |                          |
+| Turnos / reservas                                              |           |                          |
+| Firma digital / validación documental                          |           |                          |
+| Exportación de datos (Excel, PDF)                              |           |                          |
+| Integración APIs externas                                      |           |                          |
+| Módulos IA generativa (chatbots, prompts, análisis predictivo) |           |                          |
+| Cloud computing (AWS, Azure, Google Cloud)                     |           |                          |
+| Ciberseguridad avanzada (firewalls, MFA, monitoreo)            |           |                          |
+| Blockchain y fintech (cripto, DeFi, trazabilidad)              |           |                          |
 
 5\. **Experiencia usuario & identidad visual 🎨**
 
@@ -78,7 +81,7 @@ Consultor responsable:
 
 * Nivel seguridad requerido: ☐ Básico ☐ Medio ☐ Alto
 * Manejo datos sensibles: ☐ Sí ☐ No
-* Cumplimiento normativo: ☐ Habeas Data ☐ PCI ☐ RGPD ☐ Otra: \_\_\_\_\_\_\_
+* Cumplimiento normativo: ☐ Habeas Data ☐ PCI ☐ RGPD ☐ Ley Economía del Conocimiento ☐ Otra: \_\_\_\_\_\_\_\_
 * Necesita 2FA: ☐ Sí ☐ No
 * Política backups y retención datos:
 
@@ -92,7 +95,7 @@ Consultor responsable:
 9\. **KPIs y analítica 📊**
 
 * Indicadores clave éxito:
-  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Otro: \_\_\_\_\_
+  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Retención de talento ☐ Otro: \_\_\_\_\_\_\_
 * Herramientas medición preferidas (GA4, Looker Studio, Propias):
 
 10\. **Plan proyecto ⏱️💲**
