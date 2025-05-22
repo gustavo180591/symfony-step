@@ -14,7 +14,7 @@ Consultor responsable:
 * Sitio web y redes sociales:
 * Breve descripción organización (≤ 3 líneas):
 * Productos o servicios principales:
-  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Software/Servicios Informáticos ☐ Servicios profesionales freelance ☐ Consultoría internacional ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_\_
+  ☐ Alimentos gourmet ☐ Cosmética natural ☐ Indumentaria artesanal ☐ Deco & hogar ☐ Software/Servicios Informáticos ☐ Servicios profesionales freelance ☐ Consultoría internacional ☐ Agroindustria/AgTech ☐ Otro: \_\_\_\_\_\_\_\_\_\_
 
 2\. **Propósito, objetivos y urgencia 🎯**
 
@@ -29,8 +29,8 @@ Consultor responsable:
 3\. **Usuarios, stakeholders y roles 👥**
 
 * Usuarios finales:
-  ☐ Clientes minoristas ☐ Clientes mayoristas/B2B ☐ Proveedores ☐ Operadores internos
-  ☐ Administradores ☐ Logística ☐ Freelancers ☐ Contratantes internacionales ☐ Otro: \_\_\_\_\_\_\_\_\_\_\_\_
+  ☐ Clientes minoristas ☐ Clientes mayoristas/B2B ☐ Productores agropecuarios ☐ Proveedores ☐ Operadores internos
+  ☐ Administradores ☐ Logística ☐ Freelancers ☐ Contratantes internacionales ☐ Otro: \_\_\_\_\_\_\_\_\_\_
 * Roles, permisos y funcionalidades específicas por tipo de usuario:
 * Usuarios concurrentes estimados pico:
 
@@ -42,26 +42,23 @@ Consultor responsable:
 | Registro & login seguro                                        |           |                          |
 | Formularios personalizados                                     |           |                          |
 | Carga de archivos (imágenes, PDF, video)                       |           |                          |
-| Catálogo de productos (variantes, stock)                       |           |                          |
+| Agricultura de precisión (monitoreo con sensores, IoT, drones) |           |                          |
+| Integración plataformas Big Data e IA predictiva               |           |                          |
+| Monitoreo remoto y telemetría (maquinaria, cultivos, ganado)   |           |                          |
+| Gestión inteligente de insumos (fertilizantes, riego, etc.)    |           |                          |
+| Certificación y trazabilidad digital (blockchain)              |           |                          |
+| Catálogo de productos con trazabilidad                         |           |                          |
 | Carrito + pagos (MercadoPago, cuotas, cripto/stablecoins)      |           |                          |
-| Gestión envíos (Andreani/OCA/Flex)                             |           |                          |
-| Certificaciones (orgánico, comercio justo, internacional)      |           |                          |
-| Panel ventas / dashboard analíticas                            |           |                          |
-| Chat / WhatsApp directo                                        |           |                          |
+| Panel ventas / dashboard analíticas avanzadas                  |           |                          |
 | Notificaciones (email, push, SMS)                              |           |                          |
-| Integración marketplaces (Ofelia, ML, Freelancer.com, Upwork)  |           |                          |
 | Multilenguaje / multi-moneda                                   |           |                          |
-| Offline first / PWA                                            |           |                          |
 | Geolocalización / mapas                                        |           |                          |
 | Control inventario / stock                                     |           |                          |
-| Turnos / reservas                                              |           |                          |
 | Firma digital / validación documental                          |           |                          |
-| Exportación de datos (Excel, PDF)                              |           |                          |
-| Integración APIs externas (RRHH, Deel, Payoneer, Paypal)       |           |                          |
-| Módulos IA generativa (chatbots, prompts, análisis predictivo) |           |                          |
+| Integración APIs externas (mercados, clima, finanzas agro)     |           |                          |
 | Cloud computing (AWS, Azure, Google Cloud)                     |           |                          |
 | Ciberseguridad avanzada (firewalls, MFA, monitoreo)            |           |                          |
-| Blockchain y fintech (cripto, DeFi, trazabilidad pagos)        |           |                          |
+| Marketplace agroindustrial (Agrofy, Ofelia, otros)             |           |                          |
 
 5\. **Experiencia usuario & identidad visual 🎨**
 
@@ -74,7 +71,7 @@ Consultor responsable:
 
 * Canales objetivo: ☐ Web ☐ Android ☐ iOS ☐ Escritorio ☐ Kiosco/POS
 * ¿Funcionar sin conexión? ☐ Sí ☐ No
-* Sistemas actuales a integrar (ERP, CRM, AFIP, Deel, RRHH externos):
+* Sistemas actuales a integrar (ERP, CRM, AFIP, plataformas AgTech):
 * Preferencias tecnológicas (frontend, backend, DB):
 
 7\. **Seguridad, privacidad & compliance 🔐**
@@ -95,8 +92,8 @@ Consultor responsable:
 9\. **KPIs y analítica 📊**
 
 * Indicadores clave éxito:
-  ☐ Tasa conversión ☐ Ticket promedio ☐ LTV ☐ NPS/CSAT ☐ Tiempo despacho ☐ Retención de talento ☐ Tarifa promedio hora freelancer ☐ Otro: \_\_\_\_\_\_\_\_\_\_
-* Herramientas medición preferidas (GA4, Looker Studio, Propias):
+  ☐ Tasa conversión ☐ Ticket promedio ☐ Productividad agrícola ☐ Uso eficiente insumos ☐ Certificaciones obtenidas ☐ LTV ☐ NPS/CSAT ☐ Otro: \_\_\_\_\_\_\_\_\_\_
+* Herramientas medición preferidas (GA4, Looker Studio, propias, específicas agro):
 
 10\. **Plan proyecto ⏱️💲**
 
@@ -111,18 +108,12 @@ Consultor responsable:
 
 * Crecimiento esperado (usuarios, módulos, multi-sede):
 * Funcionalidades futuras (12-24 meses):
-* Riesgos identificados (legales, técnicos, operativos, regulatorios cripto):
+* Riesgos identificados (legales, técnicos, operativos, regulatorios agro, cripto):
 
 12\. **Anexos & referencias 📎**
 
 * Sistemas similares inspiración (links):
 * Documentación técnica existente (APIs, flujos):
 * Notas adicionales importantes del cliente:
-
-*Instrucciones de uso:*
-
-* Completar campos obligatorios primero.
-* Prioridades del 1-3; evite “todo prioridad 1”.
-* Enviar copia 24 h antes reunión.
 
 “La mejor funcionalidad es la que está pensada antes de programarse.” 🧠
