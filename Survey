@@ -1,14 +1,14 @@
 📘 ENCUESTA DE RELEVAMIENTO FUNCIONAL – INICIO DE PROYECTO
 
 0. 🔍 Datos iniciales del proyecto
-Campo	Valor
-Código interno / nombre del proyecto	
-Fecha de inicio del relevamiento	
-Consultor responsable	
-Versión del formulario	Energía-2025-A
+   Campo	Valor
+   Código interno / nombre del proyecto
+   Fecha de inicio del relevamiento
+   Consultor responsable
+   Versión del formulario	Energía-2025-A
 
 1. 🏢 Información institucional
-Razón social / Institución / Empresa:
+   Razón social / Institución / Empresa:
 
 Persona de contacto (nombre y cargo):
 
@@ -25,10 +25,10 @@ Segmento dentro del sector energético:
 ☐ Renovables centralizadas (parques)
 ☐ Generación distribuida (hogares, PyMEs, cooperativas)
 ☐ Consultoría, investigación o financiamiento
-☐ Otro: _______
+☐ Otro: \_\_\_\_\_\_\_
 
 2. 🎯 Propósito, objetivos y drivers estratégicos
-Oportunidad o problemática principal detectada:
+   Oportunidad o problemática principal detectada:
 
 Objetivo SMART principal del proyecto (medible, alcanzable):
 
@@ -38,7 +38,8 @@ Motivaciones clave (marcar todas las que apliquen):
 ☐ Ahorro de costos
 ☐ Obligaciones regulatorias / licitaciones públicas
 ☐ Mejora en acceso/fiabilidad energética (zonas aisladas)
-☐ Otro: _______
+☐ Profesionalización y digitalización de operaciones (para talleres multifunción)
+☐ Otro: \_\_\_\_\_\_\_
 
 Nivel de urgencia para implementación:
 ☐ Exploratorio / Investigación (0–3 meses)
@@ -50,65 +51,73 @@ Nivel de urgencia para implementación:
 ☐ Operaciones / técnica
 ☐ Sustentabilidad / ESG
 ☐ Externa / colaboración público-privada
-☐ Otro: ____
+☐ Otro: \_\_\_\_
 
 3. 👥 Actores, usuarios y ecosistema
-Usuarios finales esperados:
-☐ Técnicos e ingenieros de campo
-☐ Administradores energéticos
-☐ Comunidades locales / cooperativas
-☐ Usuarios rurales / descentralizados
-☐ Proveedores de infraestructura
-☐ Reguladores o agencias estatales
-☐ Clientes industriales o comerciales
-☐ Otro: ____
+   Usuarios finales esperados:
+   ☐ Técnicos e ingenieros de campo
+   ☐ Administradores energéticos
+   ☐ Comunidades locales / cooperativas
+   ☐ Usuarios rurales / descentralizados
+   ☐ Proveedores de infraestructura
+   ☐ Reguladores o agencias estatales
+   ☐ Clientes industriales o comerciales
+   ☐ Talleristas / mecánicos multifunción
+   ☐ Otro: \_\_\_\_
 
 Roles y permisos diferenciados por usuario (breve descripción):
 
 Cantidad estimada de usuarios simultáneos en momentos pico:
 
 4. ⚙️ Alcance funcional y requerimientos críticos
-(Prioridad: 1 = Esencial | 2 = Importante | 3 = Deseable)
+   (Prioridad: 1 = Esencial | 2 = Importante | 3 = Deseable)
 
 Funcionalidad	Pri.	Detalles clave / observaciones
-Registro y login seguro (OAuth, 2FA, etc.)		
-Panel de monitoreo energético (producción, consumo, emisiones)		
-Integración con SCADA / IoT / sensores		
-Geolocalización, mapas e infraestructura (ductos, parques, zonas)		
-Carga de archivos multimedia y documentos legales		
-Simulación y predicción con IA (demanda, clima, fallas)		
-Visualización de KPIs energéticos y ambientales		
-Gestión de licitaciones (RenovAr, MATER) y contratos bilaterales		
-Reportes regulatorios automáticos (SE, CAMMESA, etc.)		
-Dashboard ESG (impacto social, CO₂, empleo verde)		
-Certificación / trazabilidad energética (blockchain, QR, etc.)		
-Firma digital, validación documental		
-Canal de denuncias o reclamos socioambientales		
-Marketplace energético o plataforma comunitaria		
-Control de stock y mantenimiento de equipos		
+Registro y login seguro (OAuth, 2FA, etc.)
+Panel de monitoreo energético (producción, consumo, emisiones)
+Integración con SCADA / IoT / sensores
+Geolocalización, mapas e infraestructura (ductos, parques, zonas)
+Carga de archivos multimedia y documentos legales
+Simulación y predicción con IA (demanda, clima, fallas)
+Visualización de KPIs energéticos y ambientales
+Gestión de licitaciones (RenovAr, MATER) y contratos bilaterales
+Reportes regulatorios automáticos (SE, CAMMESA, etc.)
+Dashboard ESG (impacto social, CO₂, empleo verde)
+Certificación / trazabilidad energética (blockchain, QR, etc.)
+Firma digital, validación documental
+Canal de denuncias o reclamos socioambientales
+Marketplace energético o plataforma comunitaria
+Control de stock y mantenimiento de equipos
+Gestión de órdenes de trabajo (talleres mecánicos)
+Agenda de turnos y notificaciones automáticas
+Historial técnico de vehículos y servicios
+Integración con proveedores de repuestos
+Gestión documental de presupuestos y autorizaciones
+Facturación electrónica AFIP y gestión de caja
+Atención al cliente con integración multicanal (WhatsApp, email, etc.)
 
 5. 🎨 UX/UI e identidad visual
-Estilo visual deseado:
-☐ Técnico profesional
-☐ Verde / ecológico
-☐ Corporativo institucional
-☐ Territorial / comunitario
-☐ Otro: ____
+   Estilo visual deseado:
+   ☐ Técnico profesional
+   ☐ Verde / ecológico
+   ☐ Corporativo institucional
+   ☐ Territorial / comunitario
+   ☐ Otro: \_\_\_\_
 
 Disponibilidad de manual de marca o guía de estilo:
 ☐ Sí ☐ No
 
 Adjetivos clave a transmitir en el diseño (3 palabras):
-1.
-2.
-3.
+1\.
+2\.
+3\.
 
 6. 💻 Plataformas, tecnología y entornos
-Plataformas deseadas:
-☐ Web responsive
-☐ App Android / iOS
-☐ Escritorio técnico
-☐ Kiosco local / off-grid
+   Plataformas deseadas:
+   ☐ Web responsive
+   ☐ App Android / iOS
+   ☐ Escritorio técnico
+   ☐ Kiosco local / off-grid
 
 ¿Debe funcionar sin conexión? ☐ Sí ☐ No
 
@@ -117,8 +126,8 @@ Sistemas actuales a integrar (ERP, CRM, SCADA, AFIP, etc.):
 Preferencias tecnológicas (lenguajes, frameworks, base de datos):
 
 7. 🔐 Seguridad, privacidad y cumplimiento
-Nivel de seguridad requerido:
-☐ Básico ☐ Medio ☐ Alto (infraestructura crítica, datos sensibles)
+   Nivel de seguridad requerido:
+   ☐ Básico ☐ Medio ☐ Alto (infraestructura crítica, datos sensibles)
 
 ¿Se manejarán datos sensibles o estratégicos? ☐ Sí ☐ No
 
@@ -127,20 +136,22 @@ Requisitos de compliance:
 ☐ RGPD
 ☐ Ley 27.191 (energías renovables)
 ☐ Ley Economía del Conocimiento
-☐ Estándares internacionales (ISO, ESG, otros): ____
+☐ Estándares internacionales (ISO, ESG, otros): \_\_\_\_
+☐ Normativa ambiental para residuos industriales (aceites, solventes, baterías)
 
 ¿Se necesita autenticación multifactor (2FA)? ☐ Sí ☐ No
 
 Política de backups y retención esperada:
 
 8. 🛠️ Infraestructura energética y operación
-Tipo de activos a relevar / monitorear:
-☐ Pozos / ductos
-☐ Parques solares/eólicos
-☐ Microrredes rurales
-☐ Terminales de GNL / licuefacción
-☐ Plantas bioenergéticas
-☐ Otro: ____
+   Tipo de activos a relevar / monitorear:
+   ☐ Pozos / ductos
+   ☐ Parques solares/eólicos
+   ☐ Microrredes rurales
+   ☐ Terminales de GNL / licuefacción
+   ☐ Plantas bioenergéticas
+   ☐ Talleres mecánicos / flotas de mantenimiento
+   ☐ Otro: \_\_\_\_
 
 ¿Incluye exportación energética? ☐ Sí ☐ No
 
@@ -149,21 +160,22 @@ Tipo de activos a relevar / monitorear:
 Operadores logísticos o técnicos relevantes:
 
 9. 📈 Métricas de éxito y analítica
-Indicadores clave esperados (elegir hasta 5):
-☐ % generación renovable
-☐ Reducción de CO₂ equivalente
-☐ Capacidad instalada (MW)
-☐ Exportaciones energéticas
-☐ Tiempos de respuesta / mantenimiento
-☐ Participación de comunidades
-☐ Adopción tecnológica / autoconsumo
-☐ Otro: ____
+   Indicadores clave esperados (elegir hasta 5):
+   ☐ % generación renovable
+   ☐ Reducción de CO₂ equivalente
+   ☐ Capacidad instalada (MW)
+   ☐ Exportaciones energéticas
+   ☐ Tiempos de respuesta / mantenimiento
+   ☐ Participación de comunidades
+   ☐ Adopción tecnológica / autoconsumo
+   ☐ Optimización operativa de talleres / reducción de tiempos muertos
+   ☐ Otro: \_\_\_\_
 
 Herramientas de análisis y visualización preferidas:
-☐ GA4 ☐ Power BI ☐ Dashboards propios ☐ Tableau ☐ Otro: ____
+☐ GA4 ☐ Power BI ☐ Dashboards propios ☐ Tableau ☐ Otro: \_\_\_\_
 
 10. 🗓️ Plan de implementación
-Fecha objetivo para MVP funcional:
+    Fecha objetivo para MVP funcional:
 
 Presupuesto estimado (USD / ARS):
 
@@ -176,8 +188,8 @@ Presupuesto estimado (USD / ARS):
 Responsable interno de validar entregables:
 
 11. 🚀 Escalabilidad y visión a futuro
-Crecimiento esperado en próximos 12–24 meses:
-☐ Nuevas sedes ☐ Nuevos módulos ☐ Expansión internacional
+    Crecimiento esperado en próximos 12–24 meses:
+    ☐ Nuevas sedes ☐ Nuevos módulos ☐ Expansión internacional
 
 Funcionalidades futuras a prever:
 ☐ Vehículos eléctricos / estaciones de carga
@@ -185,12 +197,14 @@ Funcionalidades futuras a prever:
 ☐ Microredes inteligentes
 ☐ Cadenas de suministro descarbonizadas
 ☐ Trading energético automatizado
+☐ Diagnóstico predictivo basado en IA para vehículos
+☐ Módulo para flotas pesadas y colectivos
 
 Riesgos identificados:
 ☐ Macroeconómicos ☐ Regulatorios ☐ Ambientales / sociales ☐ Técnicos
 
 12. 📎 Anexos y documentación
-Casos de inspiración o benchmark (links):
+    Casos de inspiración o benchmark (links):
 
 Documentación técnica ya disponible (diagramas, APIs, flujos, mapas):
 
